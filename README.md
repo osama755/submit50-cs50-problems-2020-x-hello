@@ -1,1 +1,10 @@
-# submit50-cs50-problems-2020-x-hello
+# submit50-cs50-problems-2020-x-hell
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+
+{
+    string name = get_string("What is Your Name?\n");
+    printf("Hello, %s!\n", name);
+}
